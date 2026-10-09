@@ -1,0 +1,90 @@
+
+# ==============================
+# Flutter and Dart
+# ==============================
+.dart_tool/
+.packages
+.pub/
+.pub-cache/
+build/
+coverage/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.dart.js
+*.symbols
+*.map.json
+
+# ==============================
+# Android local configuration
+# ==============================
+facematch_app/android/local.properties
+facematch_app/android/.gradle/
+facematch_app/android/captures/
+facematch_app/android/key.properties
+facematch_app/android/app/debug/
+facematch_app/android/app/profile/
+facematch_app/android/app/release/
+
+# Signing keys
+*.jks
+*.keystore
+
+# ==============================
+# IDE files
+# ==============================
+.idea/
+*.iml
+.vscode/
+
+# ==============================
+# Python caches and test artifacts
+# ==============================
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# Python virtual environments
+# ==============================
+venv/
+.venv/
+env/
+ENV/
+
+# ==============================
+# Secrets and local configuration
+# ==============================
+.env
+.env.*
+!.env.example
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+
+# ==============================
+# FaceMatch test images and private data
+# ==============================
+facematch_backend/tests/images/
+facematch_backend/test_images/
+facematch_backend/private_data/
+
+# Common image files placed in backend test folders
+facematch_backend/tests/**/*.jpg
+facematch_backend/tests/**/*.jpeg
+facematch_backend/tests/**/*.png
+
+# ==============================
+# Logs and temporary files
+# ==============================
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+desktop.ini
